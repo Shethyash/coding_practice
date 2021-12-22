@@ -20,3 +20,9 @@ Notes:
 - https://leetcode.com/problems/find-all-duplicates-in-an-array/
 - https://www.codingninjas.com/codestudio/problems/triplets-with-given-sum_893028
 - https://www.codingninjas.com/codestudio/problems/sort-0-1-2_631055
+- https://www.codingninjas.com/codestudio/problems/reverse-the-array_1262298
+- https://leetcode.com/problems/merge-sorted-array/
+- https://leetcode.com/problems/move-zeroes/
+- https://leetcode.com/problems/rotate-array/
+- https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/
+- https://www.codingninjas.com/codestudio/problems/sum-of-two-arrays_893186
