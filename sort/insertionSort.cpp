@@ -11,7 +11,6 @@ void insertionSort(vector<int> &arr, int n)
         int j = i - 1;
         for (; j >= 0; j--)
         {
-
             if (arr[j] > temp)
             {
                 // shift
