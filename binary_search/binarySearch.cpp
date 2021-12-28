@@ -1,23 +1,22 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
+#define endl "\n"
 
-int binarySearch(int arr[], int size, int key)
+int binarySearch(vector<int> &arr, int key)
 {
 
-    int start = 0;
-    int end = size - 1;
-
-    int mid = start + (end - start) / 2;
+    int start = 0, end = arr.size() - 1;
 
     while (start <= end)
     {
 
+        int mid = start + (end - start) / 2;
         if (arr[mid] == key)
         {
             return mid;
         }
 
-        // go to right wala part
+        // go to right part
         if (key > arr[mid])
         {
             start = mid + 1;
@@ -26,39 +25,19 @@ int binarySearch(int arr[], int size, int key)
         { // key < arr[mid]
             end = mid - 1;
         }
-
-        mid = start + (end - start) / 2;
     }
 
     return -1;
 }
 
-int main()
+int findPeak(vector<int> &arr)
 {
 
-    int even[6] = {2, 4, 6, 8, 12, 18};
-    int odd[5] = {3, 8, 11, 14, 16};
-
-    int evenIndex = binarySearch(even, 6, 6);
-
-    cout << " Index of 6 is " << evenIndex << endl;
-
-    int oddIndex = binarySearch(odd, 5, 14);
-
-    cout << " Index of 14 is " << oddIndex << endl;
-
-    return 0;
-}
-
-int findPeak(int arr[], int n)
-{
-
-    int s = 0, e = n - 1;
-    int mid = s + (e - s) / 2;
+    int s = 0, e = arr.size() - 1;
 
     while (s < e)
     {
-        // cout<<" s " << s <<" e " << e << endl;
+        int mid = s + (e - s) / 2;
         if (arr[mid] < arr[mid + 1])
         {
             s = mid + 1;
@@ -67,7 +46,23 @@ int findPeak(int arr[], int n)
         {
             e = mid;
         }
-        mid = s + (e - s) / 2;
     }
     return s;
+}
+
+int main()
+{
+
+    vector<int> even{2, 4, 6, 8, 12, 18};
+    vector<int> odd{3, 8, 11, 14, 16};
+
+    int evenIndex = binarySearch(even, 6);
+
+    cout << " Index of 6 is " << evenIndex << endl;
+
+    int oddIndex = binarySearch(odd, 14);
+
+    cout << " Index of 14 is " << oddIndex << endl;
+
+    return 0;
 }
