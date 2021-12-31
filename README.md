@@ -15,4 +15,6 @@ Language: CPP
 - https://codeforces.com/
 - https://binarysearch.com/
 
-# Problem List:
+# Videos:
+
+- DSA-CPP : https://www.youtube.com/playlist?list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA
