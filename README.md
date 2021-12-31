@@ -8,6 +8,10 @@ Language: CPP
 Course : https://whimsical.com/dsa-4-placement-by-love-babbar-C7JX2fJ8hprv9ivEHkArjD
 ```
 
+# Imps
+
+- https://www.geeksforgeeks.org/macros-and-its-types-in-c-cpp/
+
 # Site:
 
 - https://leetcode.com/
