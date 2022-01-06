@@ -21,5 +21,8 @@ function(n){
 - https://leetcode.com/problems/fibonacci-number/
 - https://www.codingninjas.com/codestudio/problems/count-ways-to-reach-nth-stairs_798650
 - https://www.codingninjas.com/codestudio/problems/binary-search_972
+- https://www.codingninjas.com/codestudio/problems/reverse-the-string_799927
 
 # Practice Problems
+
+- https://www.codingninjas.com/codestudio/problems/check-palindrome_920555
