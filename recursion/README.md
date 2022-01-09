@@ -22,6 +22,8 @@ function(n){
 - https://www.codingninjas.com/codestudio/problems/count-ways-to-reach-nth-stairs_798650
 - https://www.codingninjas.com/codestudio/problems/binary-search_972
 - https://www.codingninjas.com/codestudio/problems/reverse-the-string_799927
+- https://leetcode.com/problems/subsets/
+- https://www.codingninjas.com/codestudio/problems/subsequences-of-string_985087
 
 # Practice Problems
 
