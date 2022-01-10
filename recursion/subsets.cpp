@@ -4,7 +4,7 @@ using namespace std;
 
 // https://leetcode.com/problems/subsets/
 
-void subsetsHelper(vector<int> nums, int index, vector<int> curr, vector<vector<int>> &res)
+void subsetsHelper(vector<int> &nums, int index, vector<int> curr, vector<vector<int>> &res)
 {
     // base case
     if (index == nums.size())
@@ -17,8 +17,7 @@ void subsetsHelper(vector<int> nums, int index, vector<int> curr, vector<vector<
     subsetsHelper(nums, index + 1, curr, res);
 
     // include case
-    int element = nums[index];
-    curr.push_back(element);
+    curr.push_back(nums[index]);
     subsetsHelper(nums, index + 1, curr, res);
 }
 
