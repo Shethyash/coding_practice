@@ -25,6 +25,7 @@ function(n){
 - https://leetcode.com/problems/subsets/
 - https://www.codingninjas.com/codestudio/problems/subsequences-of-string_985087
 - https://leetcode.com/problems/letter-combinations-of-a-phone-number/submissions/
+- https://leetcode.com/problems/permutations/
 
 # Practice Problems
 
