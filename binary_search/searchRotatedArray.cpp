@@ -10,7 +10,6 @@ int getPivot(vector<int> &arr, int n)
 
     while (s < e)
     {
-
         if (arr[mid] >= arr[0])
         {
             s = mid + 1;
@@ -26,7 +25,6 @@ int getPivot(vector<int> &arr, int n)
 
 int binarySearch(vector<int> &arr, int s, int e, int key)
 {
-
     int start = s;
     int end = e;
 
