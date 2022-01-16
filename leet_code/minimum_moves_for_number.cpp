@@ -31,6 +31,7 @@ int minMoves(int t, int m)
 int main()
 {
     int target, maxDoubles;
+    // 10 5 => 4
     cin >> target >> maxDoubles;
     cout << minMoves(target, maxDoubles) << endl;
     return 0;

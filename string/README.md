@@ -22,3 +22,4 @@ Notes:
 
 - https://www.codingninjas.com/codestudio/problems/check-if-the-string-is-a-palindrome_1062633
 - https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
+- https://binarysearch.com/problems/Number-of-Unique-Character-Substrings
