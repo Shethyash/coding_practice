@@ -1,5 +1,6 @@
-#include <vector>
+#include <bits/stdc++.h>
 using namespace std;
+#define endl "\n"
 
 int find_pivot(vector<int> v)
 {
@@ -16,10 +17,6 @@ int find_pivot(vector<int> v)
     }
     return s;
 }
-
-#include <bits/stdc++.h>
-using namespace std;
-#define endl "\n"
 
 int main()
 {

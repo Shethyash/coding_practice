@@ -12,7 +12,6 @@ int gcd(int a, int b)
 
     while (a != b)
     {
-
         if (a > b)
         {
             a = a - b;
@@ -27,7 +26,6 @@ int gcd(int a, int b)
 
 int main()
 {
-
     int a, b;
     cout << "Enter the Values of a and b" << endl;
     cin >> a >> b;

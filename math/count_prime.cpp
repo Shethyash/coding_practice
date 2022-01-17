@@ -30,7 +30,6 @@ int countPrimes(int n)
 
 int main()
 {
-
     int n;
     cin >> n;
     cout << countPrimes(n) << endl;

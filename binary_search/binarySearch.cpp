@@ -4,18 +4,15 @@ using namespace std;
 
 int binarySearch(vector<int> &arr, int key)
 {
-
     int start = 0, end = arr.size() - 1;
 
     while (start <= end)
     {
-
         int mid = start + (end - start) / 2;
         if (arr[mid] == key)
         {
             return mid;
         }
-
         // go to right part
         if (key > arr[mid])
         {
@@ -32,7 +29,6 @@ int binarySearch(vector<int> &arr, int key)
 
 int findPeak(vector<int> &arr)
 {
-
     int s = 0, e = arr.size() - 1;
 
     while (s < e)
@@ -52,7 +48,6 @@ int findPeak(vector<int> &arr)
 
 int main()
 {
-
     vector<int> even{2, 4, 6, 8, 12, 18};
     vector<int> odd{3, 8, 11, 14, 16};
 
