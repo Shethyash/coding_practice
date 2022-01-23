@@ -19,8 +19,14 @@ Topics:-
   - single level inheritance
   - multi level inheritance
   - multiple inheritance
-  - multiple inheritance with virtual functions
+  - hierarchical Inheritance
+  - hybrid Inheritance
 - Polymorphism
+  - compile time polymorphism(static polymorphism)
+    - function overloading : different functions with same name but different parameters
+    - operator overloading
+  - runtime polymorphism(dynamic polymorphism)
+    - function overriding : modifying the behavior of a parent function
 - Abstraction
   - Abstraction is the process of hiding the implementation details of a class.
 
