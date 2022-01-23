@@ -40,14 +40,14 @@ void dsf_preOrder(Tree *root, vector<int> &ans)
 
 int main()
 {
-    Tree obj;
-    Tree *root = obj.newNode(1);
-    root->left = obj.newNode(2);
-    root->right = obj.newNode(3);
-    root->left->left = obj.newNode(4);
-    root->left->right = obj.newNode(5);
-    root->right->left = obj.newNode(6);
-    root->right->right = obj.newNode(7);
+    Tree *root = new Tree;
+    root->val = 1;
+    root->left = root->newNode(2);
+    root->right = root->newNode(3);
+    root->left->left = root->newNode(4);
+    root->left->right = root->newNode(5);
+    root->right->left = root->newNode(6);
+    root->right->right = root->newNode(7);
 
     vector<int> inOrder, postOrder, preOrder;
     printV(inOrder);

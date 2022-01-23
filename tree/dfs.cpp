@@ -34,14 +34,18 @@ void sDfs(Tree *root, vector<int> &arr)
 
 int main()
 {
+    // static object allocation
     Tree obj;
-    Tree *root = obj.newNode(1);
-    root->left = obj.newNode(2);
-    root->right = obj.newNode(3);
-    root->left->left = obj.newNode(4);
-    root->left->right = obj.newNode(5);
-    root->right->left = obj.newNode(6);
-    root->right->right = obj.newNode(7);
+
+    // dynamic object allocation
+    Tree *root = new Tree;
+    root->val = 1;
+    root->left = root->newNode(2);
+    root->right = root->newNode(3);
+    root->left->left = root->newNode(4);
+    root->left->right = root->newNode(5);
+    root->right->left = root->newNode(6);
+    root->right->right = root->newNode(7);
 
     vector<int> ans, sArr;
     dfs(root, ans);
