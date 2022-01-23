@@ -10,6 +10,8 @@ Course : https://whimsical.com/dsa-4-placement-by-love-babbar-C7JX2fJ8hprv9ivEHk
 
 # Imps
 
+- General Material : https://www.codingninjas.com/codestudio/guided-paths
+- DSA material : https://www.codingninjas.com/codestudio/guided-paths/data-structures-algorithms
 - https://www.geeksforgeeks.org/macros-and-its-types-in-c-cpp/
 
 # Site:
