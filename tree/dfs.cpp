@@ -1,25 +1,10 @@
 #include <bits/stdc++.h>
+#include "tree.cpp"
 using namespace std;
 #define endl "\n"
 
 // dfs
 
-class Tree
-{
-public:
-    int val;
-    Tree *left;
-    Tree *right;
-};
-
-Tree *newNode(int data, Tree *left = nullptr, Tree *right = nullptr)
-{
-    Tree *node = new Tree();
-    node->val = data;
-    node->left = left;
-    node->right = right;
-    return node;
-}
 void dfs(Tree *root, vector<int> &ans)
 {
     if (root == NULL)
@@ -49,13 +34,14 @@ void sDfs(Tree *root, vector<int> &arr)
 
 int main()
 {
-    Tree *root = newNode(1);
-    root->left = newNode(2);
-    root->right = newNode(3);
-    root->left->left = newNode(4);
-    root->left->right = newNode(5);
-    root->right->left = newNode(6);
-    root->right->right = newNode(7);
+    Tree obj;
+    Tree *root = obj.newNode(1);
+    root->left = obj.newNode(2);
+    root->right = obj.newNode(3);
+    root->left->left = obj.newNode(4);
+    root->left->right = obj.newNode(5);
+    root->right->left = obj.newNode(6);
+    root->right->right = obj.newNode(7);
 
     vector<int> ans, sArr;
     dfs(root, ans);
