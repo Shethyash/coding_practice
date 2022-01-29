@@ -19,6 +19,7 @@ Course : https://whimsical.com/dsa-4-placement-by-love-babbar-C7JX2fJ8hprv9ivEHk
 - linked list
   - two pointers(slow-fast)
   - hash map
+  - stack
 - tree
   - dfs
   - bfs
@@ -31,6 +32,21 @@ Course : https://whimsical.com/dsa-4-placement-by-love-babbar-C7JX2fJ8hprv9ivEHk
   - bit set(c++)
   - xor
   - bit masking
+
+# Container(C++)
+
+- Vector
+- list(linked list)
+- priority_queue(heap)
+- stack
+- queue
+- deque
+- pair
+- set(binary tree)
+- multiset(binary tree)
+- unordered_set(hash maps)
+- map(binary tree)
+- unordered_map(hash maps)
 
 # Imps
 
