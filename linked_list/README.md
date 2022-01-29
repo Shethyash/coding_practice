@@ -14,3 +14,7 @@ Notes:
 
 - https://leetcode.com/problems/linked-list-cycle-ii/
 - https://leetcode.com/problems/merge-two-sorted-lists/
+- https://leetcode.com/problems/reverse-linked-list/
+- https://leetcode.com/problems/remove-linked-list-elements
+- https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list
+- https://leetcode.com/problems/odd-even-linked-list

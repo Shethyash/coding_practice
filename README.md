@@ -8,6 +8,30 @@ Language: CPP
 Course : https://whimsical.com/dsa-4-placement-by-love-babbar-C7JX2fJ8hprv9ivEHkArjD
 ```
 
+# Topics & Techniques:
+
+- array
+  - two pointers
+  - sorting
+  - binary search
+  - hash map
+  - maths
+- linked list
+  - two pointers(slow-fast)
+  - hash map
+- tree
+  - dfs
+  - bfs
+  - queue
+  - stack
+- string
+  - two pointers
+  - stack
+- bit manipulation
+  - bit set(c++)
+  - xor
+  - bit masking
+
 # Imps
 
 - General Material : https://www.codingninjas.com/codestudio/guided-paths
@@ -17,11 +41,11 @@ Course : https://whimsical.com/dsa-4-placement-by-love-babbar-C7JX2fJ8hprv9ivEHk
 # Site:
 
 - https://leetcode.com/
+- https://binarysearch.com/
 - https://www.codingninjas.com/codestudio
 - https://www.hackerrank.com/
 - https://www.codechef.com/
 - https://codeforces.com/
-- https://binarysearch.com/
 
 # Videos:
 
