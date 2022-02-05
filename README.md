@@ -18,6 +18,7 @@ Course : https://whimsical.com/dsa-4-placement-by-love-babbar-C7JX2fJ8hprv9ivEHk
   - maths
 - linked list
   - two pointers(slow-fast)
+  - Floyd’s Cycle Detection Algorithm
   - hash map
   - stack
 - tree
