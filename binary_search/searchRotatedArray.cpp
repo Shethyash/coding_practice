@@ -1,4 +1,4 @@
-#include <vector>
+#include <bits/stdc++.h>
 using namespace std;
 
 int getPivot(vector<int> &arr, int n)
@@ -64,4 +64,10 @@ int findPosition(vector<int> &arr, int n, int k)
     { // BS on first line
         return binarySearch(arr, 0, pivot - 1, k);
     }
+}
+
+int main()
+{
+    vector<int> arr{1, 3, 8, 10, 17};
+    cout << "Pivot is " << findPosition(arr, 5, 1) << endl;
 }
